@@ -1,0 +1,176 @@
+.section1{
+    background-color: black;
+    height: 100%;
+    padding-bottom: 10%;
+  
+
+}
+.text{
+   
+    color: #1F70AF;
+    font-family: Proxima Nova;
+
+
+}
+.text1{
+    font-family: Proxima Nova;
+
+font-weight: 700px;
+line-height: 25px;
+letter-spacing: 0.05em;
+text-align: center;
+font-family: sans-serif;
+color: white;
+}
+.text2{
+    color: #1F70AF; 
+}
+
+.cards1{
+    background-color: #181725;  
+}
+
+
+.custom-card {
+    width: 70%; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+
+}
+.row{
+    margin-top: 6%;
+    margin-bottom: 6%;
+
+}
+.horizontal{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right:20%;
+    color: #FFFFFF;
+   height: 3px;
+   border: 1px solid;
+
+    
+
+}
+.clientcontainer{
+    background-color: #181725;
+    border-radius: 15px;
+   border-color: #1F70AF;
+   box-shadow: 0 0 20px 0 #1F70AF;
+margin-top:10% ;
+}
+/* .box{
+    background-color: #181725;
+     border-radius: 15px;
+    border-color: #1F70AF;
+    box-shadow: 0 0 20px 0 #1F70AF;
+ margin-top:10% ;
+
+ margin-bottom: 10%;
+justify-content: space-between;
+display: flex; */
+
+
+/* } */
+.boximage{
+    padding: 5%;
+width: 50%;
+/* justify-content: space-between; */
+}
+.section-background {
+    background-color: black; 
+    color: white; 
+    padding: 20px; 
+}
+.page-title2{
+    margin-bottom: 20%;
+}
+.company-text{
+    color: #1F70AF;
+}.column{
+    color: #ffffff;
+    text-align: left;
+}
+.rectangle-img{
+    width: 100%;
+    
+    position: relative;
+    /* top: 49px; */
+    z-index: -1;
+    padding: 15%;
+}
+.circular-img{
+    /* position: absolute; */
+    /* top: 39px; */
+    /* z-index: 0; */
+    position: absolute;
+    top: 75%;
+    left: 17%;
+    height: 25;
+   
+  width: 25%;
+  bottom: 10%;
+}
+
+.circle-container{
+   background-color: #181725;
+   padding: 28px;
+   border-radius: 30px;
+   
+}
+.circle-round{
+    border-radius: 100%;
+    padding: 32px;
+    background-color: #312F4B;
+}
+.image3{
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    height: 20;
+  width: 20%;
+  bottom: 80%;
+  /* background-color: #181725; */
+}
+.lorem-text{
+    font-size: 13px;
+    margin-top: 5%;
+}
+
+
+
+.tools-desc {
+    list-style-type: none;
+}
+
+.tools-desc li:before {
+    content: '\2605';  /* Unicode character for a black star */
+    margin-right: 10px;
+  color:blue}
+.tools-desc li span{
+    font-size: 13px;
+}
+.btn-grad {
+    background-image: linear-gradient(to top,#1f70af,#000000);
+    margin-top: 20;
+    padding: 10px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 50px;
+    display: block;
+}
+
+  /* .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    /* color: #fff; */
+    /* text-decoration: none; */
+  /* } */ 
+ 
+  @media screen and (max-width:600px) {
+    .circle-img{
+        width:50%;
+    }
+  }
